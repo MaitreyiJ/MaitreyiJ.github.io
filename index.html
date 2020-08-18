@@ -85,7 +85,7 @@
 
                         <h2>PROJECTS</h2>
                         
-                        <p id="lead" class="lead">C++ mapping application, fNIRS Signal Processing, Hardware Spike Sorting are some of my projects. To know more, click on the github link at the bottom of this page.</p>
+                        <p id="lead" class="lead">C++ mapping application, fNIRS Signal Processing, Hardware Spike Sorting are some of my projects. To know more, click on the each of them!</p>
                     </div>
                 </div>
             </div>
@@ -96,6 +96,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Map Me-GIS</h5>
                     <p class="card-text">A car navigation map created in C++. </p>
+                    <button type="button" class="btn btn-info" id="map" >More info</button>
                   </div>
                 </div>
                 <div class="card">
@@ -104,6 +105,8 @@
                     <h5 class="card-title">Neural Network-Tic-Tac-Toe</h5>
                     <p class="card-text">Trying to learn the basics of Machine Learning and TensorFlow by training a neural network to play Tic Tac Toe.</p>
                     <p class="card-text"><small class="text-muted">Python</small></p>
+                   
+
                   </div>
                 </div>
                 <div class="card">
@@ -112,6 +115,8 @@
                     <h5 class="card-title">Summer Research 2020</h5>
                     <p class="card-text">Spike sorting Algorithms-benchmarking for Harwdware implementation.</p>
                     <p class="card-text"><small class="text-muted">University of Toronto</small></p>
+                    <button type="button" class="btn btn-info" id="SR">More info</button>
+
                   </div>
                 </div>
                 <div class="card text-white bg-secondary text-white text-center p-3">
@@ -137,6 +142,8 @@
                     <h5 class="card-title">fNIRS Signal Processing</h5>
                     <p class="card-text">LMS Algorithm implementation to filter fNIRS Data from Copenhagen Hospital.</p>
                     <p class="card-text"><small class="text-muted">Technical University of Denmark</small></p>
+                    <button type="button" class="btn btn-info" id="SR2">More info</button>
+
                   </div>
                 </div>
                 <div class="card">
@@ -145,6 +152,8 @@
                     <h5 class="card-title">Snakes and Ladder Game-VGA and FPGA</h5>
                     <p class="card-text"> Snakes and Ladder Game in C and ARM .</p>
                     <p class="card-text"><small class="text-muted">Course Project</small></p>
+                    <button type="button" class="btn btn-info"id="243">More info</button>
+
                   </div>
                 </div>
               </div>
@@ -214,8 +223,25 @@
 
      //highlight relevant items on scrolling in navbar
      $('body').scrollspy({ target: '#navbarLinks' })
-    </script>
 
+     $('#map').click(function(){
+      location.href = "https://utoronto-my.sharepoint.com/:p:/g/personal/maitreyi_joshi_mail_utoronto_ca/EaBf5DbtbXtDuyyb_QjcH_ABgRI63uo-bR7cj5_OsP2rpA?e=tgBobc";
+});
+    
+$('#SR').click(function(){
+      location.href = "https://github.com/MaitreyiJ/SummerResearch2020";
+});
+
+$('#SR2').click(function(){
+      location.href = "https://utoronto-my.sharepoint.com/:b:/g/personal/maitreyi_joshi_mail_utoronto_ca/ESStjJ0X21hOg4lb8-cKxM4BkFs6UyEgq4GF4ZHNx1kCXA?e=quvEan";
+});
+
+$('#243').click(function(){
+      location.href = "https://github.com/MaitreyiJ/Snakes-Ladder/blob/master/ECE243Final_Project.c";
+});
+    </script>
+     
+     
 
 
 </body>
